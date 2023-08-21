@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex || Home</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>POKEDEX</h1>
+    </header>
+    <main>
+        <p>
+            This Pokédex contains detailed stats for every creature from the Pokemon games.
+        </p>
+        <span class="search-bar">
+            <input type="text" id="search-input" placeholder="Search for Pokémon...">
+            <button id="search-close-btn" class="close-btn">&#10006;</button>
+
+        </span>
+        <div class="card">
+            <div id="pokemon-list" class="pokemon-list"></div>
+        </div>
+        <div id="pagination">
+            <button id="prev-btn">Previous</button>
+            <button id="next-btn">Next</button>
+        </div>
+    </main>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
