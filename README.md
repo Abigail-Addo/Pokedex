@@ -4,9 +4,6 @@ Since the 90s Pokémon enjoy worldwide popularity. These little monsters are not
 
 As more than 1100 Pokemon’s exist it’s very hard to have a clear understanding or even overview about each. Therefore we’d like to provide a solution that lets user discover and browse through all Pokemon’s.
 
-As an example, you can view this website:
-https://pokedex-phi-ten.vercel.app/
-
 # The API
 Before getting started with the Frontend we have to make sure that sufficient data is accessible. Please use this API for the whole application: https://pokeapi.co
 
