@@ -64,6 +64,10 @@ main span.search-bar input {
 
 }
 
+div.card {
+    width: 100%;
+}
+
 div.pokemon-list {
     display: flex;
     flex-wrap: wrap;
@@ -77,6 +81,8 @@ div.pokemon-list {
 div.pokemon-item img {
     border: 1px solid #ccc;
     padding: 0;
+    display: flex;
+    margin: 0 auto 1rem;
 }
 
 div.pokemon-item p {
@@ -84,10 +90,14 @@ div.pokemon-item p {
 }
 
 .pokemon-item {
-    padding: 1rem 1.5rem;
+    padding: 1rem;
     cursor: pointer;
     background-color: #fff;
     height: 10rem;
+}
+
+.pokemon-item:hover {
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3);
 }
 
 div#pagination {
@@ -218,6 +228,16 @@ span.row {
 
     h2.name {
         font-size: 2rem;
+    }
+
+    div.card {
+        margin: auto;
+    }
+
+    div.pokemon-list {
+        display: grid;
+        grid-template-columns: repeat(4, 10rem);
+        width: 100%;
     }
 }
 
